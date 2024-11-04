@@ -1,0 +1,16 @@
+mi_set =set([1,2,3,4,5,2,6])
+print(mi_set)
+otro_set={1,2,3,9,8}
+print(type(otro_set))
+print(len(otro_set))
+print(2 in otro_set)
+s3 =mi_set.union(otro_set)
+print(s3)
+s3.add(10)
+print(s3)
+s3.remove(2)
+print(s3)
+s3.discard(10) #es mejor que remove no da fallo
+print(s3)
+s3.pop()
+print(s3)
